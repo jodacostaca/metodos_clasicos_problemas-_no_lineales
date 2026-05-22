@@ -16,15 +16,6 @@ Este repositorio implementa tres métodos numéricos para resolver la ecuación 
 - **`properties_dataNonDim.csv`**  
   Datos adimensionales de α(θ) y κ(θ) en función de la temperatura normalizada θ.
 
-## Ecuación modelada
-
-\[
-\alpha(\theta) \frac{\partial \theta}{\partial t} = \nabla \cdot \big( \kappa(\theta) \nabla \theta \big)
-\]
-
-- **Dominio:** triángulo rectángulo con hipotenusa curva (cuarto de círculo).
-- **Condiciones de contorno:** θ = 0 en la hipotenusa; Neumann homogénea en los catetos.
-- **Condición inicial:** temperatura uniforme en el interior.
 
 ## Requisitos
 
